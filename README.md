@@ -4,6 +4,23 @@
 
 [![gh-workflow-image]][gh-workflow-url] [![npm-image]][npm-url] ![][typescript-image] [![license-image]][license-url]
 
+## Installation
+
+Install the package from the npm package registry.
+
+```sh
+# Npm
+npm i @poppinss/object-builder
+
+# Yarn
+yarn add @poppinss/object-builder
+
+# Pnpm
+pnpm add @poppinss/object-builder
+```
+
+## Usage
+
 The `ObjectBuilder` is a convenience class to create an object with dynamic properties. Consider the following example, where we wrap our code inside conditionals before adding the property `b` to the `startingObject`.
 
 ```ts
